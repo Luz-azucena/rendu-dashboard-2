@@ -1,0 +1,17 @@
+---
+title: "Dashboard Vélhop Strasbourg"
+subtitle: "Analyse interactive des données de mobilité"
+---
+
+## 👋 Bienvenue
+
+Ce dashboard présente les données du système Vélhop de Strasbourg.
+
+### 📊 Pages disponibles
+
+- **Accueil** : Cette page
+- **Dashboard** : Visualisations interactives et cartes
+
+---
+
+Dernière mise à jour : `r Sys.Date()`

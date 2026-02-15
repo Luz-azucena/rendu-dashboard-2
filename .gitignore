@@ -1,0 +1,9 @@
+.Rproj.user/
+.RData
+.Rhistory
+rsconnect/
+.DS_Store
+.Renviron
+_files/
+_cache/
+docs/

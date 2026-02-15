@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Dashboard Vélhop Strasbourg"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: dashboard.qmd
+        text: Dashboard
+  footer: "© 2024 Dashboard Vélhop"
+
+format:
+  html:
+    theme: flatly
+    css: custom.css

@@ -1,0 +1,31 @@
+---
+title: "Dashboard Interactif"
+format:
+  dashboard:
+    orientation: columns
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(leaflet)
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+# Charger les données
+data <- read_csv("data/tab.csv")
+
+# Statistiques clés
+total_trips <- nrow(data)
+cat > .gitignore << 'EOF'
+.Rproj.user/
+.RData
+.Rhistory
+rsconnect/
+.DS_Store
+.Renviron
+_files/
+_cache/
