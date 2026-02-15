@@ -1,12 +1,8 @@
 # Dashboard Vélhop Strasbourg
 
-Dashboard interactif pour analyser les données du système Vélhop.
+Dashboard interactif réalisé dans le cadre d'un cours d'initiation à R de première année de master Carthageo.
 
-## Voir le dashboard
-
-[Voir le dashboard](https://VOTRE_USERNAME.github.io/rendu-dashboard-2)
-
-*Remplacez VOTRE_USERNAME par votre username GitHub*
+## [Voir le dashboard](https://Luz-azucena.github.io/rendu-dashboard-2)
 
 ## Données du dashboard
 
