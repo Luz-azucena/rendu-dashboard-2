@@ -15,17 +15,34 @@ library(ggplot2)
 library(dplyr)
 library(readr)
 
-# Charger les données
-data <- read_csv("data/tab.csv")
+# Lire les données avec séparateur point-virgule
+data <- read_csv2("tab.csv")
 
-# Statistiques clés
 total_trips <- nrow(data)
-cat > .gitignore << 'EOF'
-.Rproj.user/
-.RData
-.Rhistory
-rsconnect/
-.DS_Store
-.Renviron
-_files/
-_cache/
+```
+
+## Indicateurs {.cards}
+
+```{r}
+#| content: valuebox
+#| title: "Total Trajets"
+total_trips
+```
+
+```{r}
+#| content: valuebox
+#| title: "Usagers Enquêtés"
+n_distinct(data$ID)
+```
+
+## Distribution par Mode
+
+```{r}
+data %>%
+  count(Mode, sort = TRUE) %>%
+  ggplot(aes(x = reorder(Mode, -n), y = n, fill = Mode)) +
+  geom_col(show.legend = FALSE) +
+  labs(x = "", y = "Nombre") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
