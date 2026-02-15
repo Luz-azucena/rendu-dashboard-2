@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme – Dashboard Vélhop Strasbourg</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="custom.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Dashboard Vélhop Strasbourg</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Accueil</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../dashboard.html"> 
+<span class="menu-text">Dashboard</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#general-information" id="toc-general-information" class="nav-link active" data-scroll-target="#general-information">General information</a></li>
+  <li><a href="#open-data-licence-and-citation" id="toc-open-data-licence-and-citation" class="nav-link" data-scroll-target="#open-data-licence-and-citation">Open-data, licence and citation</a></li>
+  <li><a href="#files-.geojson-.csv" id="toc-files-.geojson-.csv" class="nav-link" data-scroll-target="#files-.geojson-.csv">Files (.geojson &amp; .csv)</a></li>
+  <li><a href="#variables-groups" id="toc-variables-groups" class="nav-link" data-scroll-target="#variables-groups">Variables (&amp; groups)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="general-information" class="level1">
+<h1>General information</h1>
+<pre><code>v4.3    Numéro de version|Version number|Número de versión
+6 July 2023     Date de la dernière mise à jour des données|Date of last data update |Fecha de la última actualización de datos
+
+Guide Administrateur·rice v4.3 (en français) - https://mobiliscope.quarto.pub/guide_admin/guide_admin.html 
+    And specifically - https://mobiliscope.quarto.pub/guide_admin/guide_admin.html#sec-dataville
+
+Informations are also available in the Mobiliscope webiste :
+    En français - www.mobiliscope.cnrs.fr/fr/info/methods/indicators
+    In english - www.mobiliscope.cnrs.fr/en/info/methods/indicators
+    En español - www.mobiliscope.cnrs.fr/es/info/methods/indicators</code></pre>
+</section>
+<section id="open-data-licence-and-citation" class="level1">
+<h1>Open-data, licence and citation</h1>
+<pre><code>Toutes les données affichées dans le Mobiliscope et nécessaires à son fonctionnement sont en open data ( à l'exception des données FlowMap pour des raisons de confidentialité). Les données sont mises à disposition sous **licence ODbL** (cf.fichier "odbl_fr.pdf"). 
+Les utilisateurs sont libres d'utiliser et d'adapter les données à condition de redistribuer les données adaptées sous licence ODbL et de mentionner les sources comme suit : 
+    Vallée J, Douet A, Le Roux G, Commenges H, Lecomte C, Villard E (2024). Mobiliscope, un outil libre pour explorer les villes et leur mixité sociale au cours des 24 heures de la journée [v4.3]. www.mobiliscope.cnrs.fr. doi:10.5281/zenodo.11111161
+    *Remarque* : en cas de réutilisation de ces données pour un nombre limité de villes, citer les sources des données initiales telles que précisées dans le fichier pdf odbl.
+
+All the data displayed on Mobiliscope platfrom and required for its operation are available in open data (with the exception of [flowMap] data for confidentiality reasons). ata is made available under **ODbL license**. (cf.file "odbl_en.pdf")
+Users are free to use and adapt data as long as they redistribute a version of their adapted database under the ODbL licence and that they attribute the original sources as follows:
+    Vallée J, Douet A, Le Roux G, Commenges H, Lecomte C, Villard E (2024). Mobiliscope, an open platform to explore cities and social mix around the clock [v4.3]. www.mobiliscope.cnrs.fr. doi:10.5281/zenodo.11111161
+    *Note*: In case of re-use of these data for a limited number of city regions, please cite the sources of the original data as specified in the odbl pdf file.
+
+Todos los datos mostrados en Mobiliscope y necesarios para su funcionamiento son datos abiertos (excepto los datos de flowMap por motivos de confidencialidad). Los datos están disponibles bajo **licencia ODbL**. (cf. "odbl_es.pdf"). 
+Los usuarios son libres de utilizar y adaptar los datos siempre que redistribuyan una versión de su base de datos adaptada bajo la licencia ODbL y que atribuyan las fuentes originales de la siguiente manera: 
+    Vallée J, Douet A, Le Roux G, Commenges H, Lecomte C, Villard E (2024). Mobiliscope, an open platform to explore cities and social mix around the clock [v4.3]. www.mobiliscope.cnrs.fr. doi:10.5281/zenodo.11111161
+    *Nota*: En caso de reutilización de estos datos para un número limitado de regiones urbanas, citar las fuentes de los datos originales tal como se especifica en el archivo odbl pdf.</code></pre>
+</section>
+<section id="files-.geojson-.csv" class="level1">
+<h1>Files (.geojson &amp; .csv)</h1>
+<pre><code>'city region'_secteurs.geojson
+    Couche géographique (WGS84) des secteurs de la région considérée (avec ID secteur)
+    District geographic layer (WGS84) for the city region under consideration (with District ID)
+    Capa geográfica (WGS84) de los sectores de una región (con ID sector)
+
+'city region'_'variable'_Duncan.csv
+    Pour toute la région et par heure: indice de dissimilarité de Duncan pour chaque groupe
+    For the whole region and per hour: Duncan Index of dissimilarity for each group
+    Para toda la región y por hora: índice de disimilitud de Duncan para cada grupo
+
+'city region'_'variable'_Moran.csv
+    Pour toute la région et par heure: indice d’autocorrélation spatiale de Moran pour chaque groupe
+    For the whole region and per hour: spatial autocorrelation Moran's Index for each group
+    Para toda la región y por hora: índice de autocorrelación espacial de Moran para cada grupo
+
+'city region'_'variable'_prop_stacked.csv   
+    Par secteur et par heure: nombre pondéré de personnes de chaque groupe
+    Per district and per hour: weighted number of people in each group
+    Por sector y por hora: número ponderado de personas en cada grupo
+
+'city region'_'variable'_flow_stacked.csv
+    Par secteur et par heure: nombre pondéré de personnes (résidant hors du secteur) de chaque groupe
+    Per district and per hour: weighted number of people (residing outside the district) in each group
+    Por sector y por hora: número ponderado de personas (residente fuera del sector) en cada grupo
+
+'city region'_'variable'_choro_stacked.csv
+    Par secteur et par heure: proportion pondérée (%) de personnes de chaque groupe, par rapport à la population totale
+    Per district and per hour: weighted proportion (%) of people in each group, compared to the whole population
+    Por sector y por hora: proporción ponderada (%) de personas en cada grupo, en comparación con la población total
+
+'city region'_pop_choro_stacked.csv
+    Par secteur et par heure: nombre pondéré de personnes par km² (seulement pour la population totale)
+    Per district and per hour: weighted number of people per km² (only for the whole population)
+    Por sector y por hora: número ponderado de personas por km² (sólo para la población total)</code></pre>
+</section>
+<section id="variables-groups" class="level1">
+<h1>Variables (&amp; groups)</h1>
+<pre><code>hour    Heure (4am; 5am…., 3am)|Hour (4am; 5am…., 3am)|Hora (4am; 5am…., 3am)|
+
+district    ID secteur|District ID|ID sector|
+
+pop     Population totale|Whole population|Población total|
+    pop0    population totale|Whole population|Población total|
+
+res     Résidant dans/hors du secteur|Residing in/out the district |Residente en/fuera del sector|
+    res1    hors du secteur|outside the district|fuera del sector|
+    res2    dans le secteur|in the district|en el sector|
+
+age     Groupe d’âge (pour la France et l'Amérique latine)|Age group (for France and Latin America)|Grupo de edad (para Francia y América Latina)|
+    age1    entre 16 et 24 ans|between 16 and 24 years old (between 15 and 24 years old for Canada)|16 y 24 años (16 y 24 años sólo para Canadá)|
+    age2    entre 25 et 34 ans|between 25 and 34 years old|25-34 años|
+    age3    entre 35 et 64 ans|between 35 and 64 years old|35 a 64 años|
+    age4    65 ans et plus|65 years old and more|65 años o más|
+
+ageqc   Groupe d’âge (pour le Canada)|Age group (for Canada)|Grupo de edad (para Canadá)|
+    ageqc1  entre 15 et 24 ans|between 15 and 24 years old|15 y 24 años|
+    ageqc2  entre 25 et 34 ans|between 25 and 34 years old|25-34 años|
+    ageqc3  entre 35 et 64 ans|between 35 and 64 years old|35 a 64 años|
+    ageqc4  65 ans et plus|65 years old and more|65 años o más|
+
+sex     Sexe|Sex|Sexo|
+    sex1    hommes|male|hombres|
+    sex2    femmes|female|mujeres|
+
+strmfr Composition du ménage (pour la France)|Household composition (for France)|Composición del hogar (para Francia)|
+    strmfr1     ménage d'une personne|single-person household|persona sola|
+    strmfr2     couple sans enfant|couple without children|pareja sin niño|
+    strmfr3     ménage (hors couple) sans enfant|household (excluding couple) without children|hogar (excepto pareja) sin niño|
+    strmfr4     ménage avec enfant|household with children|hogar con niño |
+
+strmqc Composition du ménage (pour le Canada)|Household composition (for Canada)|Composición del hogar (para Canadá)|
+    strmqc1     ménage d'une personne|single-person household|persona sola|
+    strmqc2     ménage sans enfant|household without children|hogar sin niño|
+    strmqc3     ménage avec enfant|household with children|hogar con niño |
+
+strm    Composition du ménage (pour l'Amérique latine)|Household composition (for Latin America)|Composición del hogar (para América Latina)|
+    strm1   ménage d'une personne|single-person household|persona sola|
+    strm2   famille sans enfant|family without children|familia sin niño|
+    strm3   ménage complexe sans enfant|complex household without children|hogar compuesto sin niño|
+    strm4   famille avec enfant|family with children|familia con niño|
+    strm5   ménage complexe avec enfant|complex household with children|hogar compuesto con niño|
+
+cleduc  Niveau d’éducation de l’individu (pour la France et l'Amérique latine)|Individual educational level (for Fance and Latin America)|Nivel educativo del individuo (para Francia y América Latina)|
+    cleduc1     faible|low|bajo|
+    cleduc2     intermédiaire|middle|medio|
+    cleduc3     élevé|high|alto|
+    cleduc4     très élevé|very high|muy alto|
+
+educmen     Niveau d’éducation du ménage (pour la France et l'Amérique latine)|Household educational level (for France and Latin America)|Nivel educativo del hogar (para Francia y América Latina)|
+    educmen1    faible|low|bajo|
+    educmen2    intermédiaire|middle|medio|
+    educmen3    élevé|high|alto|
+    educmen4    très élevé|very high|muy alto|
+
+rev     Revenu du ménage (pour Paris et sa région)|Household income (Paris region)|Ingresos de los hogares (sólo para París y su región)|
+    rev1    faible|low|bajo|
+    rev2    intermédiaire - tranche inférieure|middle-low|medio-bajo|
+    rev3    intermédiaire - tranche supérieure|middle-high|medio-alto|
+    rev4    élevé|high|alto|
+
+revqc   Revenu du ménage (pour le Canada )|Household income (for Canada)|Ingresos de los hogares (sólo para Canadá)|
+    revqc1  faible|low|bajo|
+    revqc2  intermédiaire - tranche inférieure|middle-low|medio-bajo|
+    revqc3  intermédiaire - tranche supérieure|middle-high|medio-alto|
+    revqc4  élevé|high|alto|
+    revqc5  inconnu|missing|no informa|
+
+reval   Revenu du ménage (pour l'Amérique latine)|Household income (for Latin America)|Ingresos de los hogares (sólo para América Latina)|
+    reval1  très faible|very low|muy bajo|
+    reval2  faible|low|bajo|
+    reval3  intermédiaire|intermediate|medio|
+    reval4  élevé|high|alto|
+    reval5  très élevé|very high|muy alto|
+
+cs  Catégorie socioprofessionnelle de l’individu (pour la France)|Individual socioprofessional status (for France)|Categoría socioprofesional del individuo (para Francia)|
+    cs1     personnes inactives|inactive|inactivo·a·s|
+    cs2     ouvriers et ouvrières|workers|obrero·a·s|
+    cs3     employé·e·s|employees|empleado·a·s|
+    cs4     catégories intermédiares|intermediate occupations |categorías intermedias |
+    cs5     cadres et professions intellectuelles supérieures|managers and higher intellectual professionals|directivo·a·s y profesionales|
+
+cspmen  Catégorie socioprofessionnelle du ménage (pour la France)|Household socioprofessional status (for France)|Categoría socioprofesional del hogar (para Francia)|
+    cspmen1     personnes inactives|inactive|inactivo·a·s|
+    cspmen2     ouvriers et ouvrières|workers|obrero·a·s|
+    cspmen3     employé·e·s|employees|empleado·a·s|
+    cspmen4     catégories intermédiares|intermediate occupations |categorías intermedias |
+    cspmen5     cadres et professions intellectuelles supérieures|managers and higher intellectual professionals.|directivo·a·s y profesionales|
+
+cso     Catégorie socioprofessionnelle des personnes actives (pour l'Amérique latine)|Socioprofessional status of active population (for Latin America)|Categoría socio-ocupacional del activo·a (para América Latina)|
+    cso1    avec un travail non qualifié|unskilled workers|trabajadores no cualificados|
+    cso2    avec un travail qualifié|skilled workers|trabajadores cualificados|
+    cso3    indépendant·e·s|self-employed|independientes|
+    cso4    cadres et professions intellectuelles|executives and professionals|directivo·a·s y profesionales|
+
+inf     Informalité professionnelle des personnes actives (pour Bogotá et São Paulo)|Professional informality of active population (for Bogotá and São Paulo)|Informalidad laboral del activo·a (sólo para Bogotá y São Paulo)|
+    inf1    avec emploi formel|formal workers|con empleo formal|
+    inf2    avec emploi informel|informal workers| con empleo informal|
+
+occ     Occupation principale|Occupational status|Principal ocupación|
+    occ1    personnes actives|active|activo·a·s|
+    occ2    étudiant·e·s|student|estudiantes|
+    occ3    sans emploi|unemployed|desempleado·a·s|
+    occ4    retraité·e·s|retired|jubilado·a·s|
+    occ5    personnes inactives|inactive|inactivo·a·s|
+
+resarea     Résidence selon le zonage en aires urbaines. Cf. ZAU, 2010 (pour la France)|Residential location in urban/peripheral rings (for France)|Residencia según la Zonificación en Areas Urbanas (ZAU, 2010) - para Francia|
+    resarea1    zone périphérique|suburban/peripheral area|zona periférica|
+    resarea2    zone urbaine|urban area|zona urbana|
+    resarea3    ville centre de l’enquête|central city of the survey|ciudad central de la encuesta|
+
+zona    Couronne de résidence (pour l'Amérique latine)|Residential location in the urban/peripheral rings (for Latin America)|Anillo de residencia (para América Latina)|
+    zona1   périphérie lointaine|distant periphery|periferia lejana|
+    zona2   périphérie proche|close periphery|periferia cercana|
+    zona3   péricentre|pericenter|pericentro|
+    zona4   centre|center|centro|
+
+qpv     Résidence dans/hors QPV - Quartiers Prioritaires en Politique de la Ville (pour la France – sauf Annecy et sa région)|Residential location in/outside ‘Poverty Areas’ (For France only – except Annecy region)|Residencia dentro/fuera de QPV (Quartiers Prioritaires en Politique de la Ville). Para Francia - excepto Annecy y su región|
+    qpv1    hors QPV|outside QPV|fuera QPV|
+    qpv2    dans QPV|inside QPV|dentro QPV|
+
+dep     Département de résidence (pour Paris et sa région)|Departement of residence (for Paris region)|Departamento de residencia (para París y su región)|
+    dep1    Paris|Paris|París|
+    dep2    Seine-St-Denis|Seine-St-Denis|Seine-St-Denis|
+    dep3    Val-de-Marne|Val-de-Marne|Val-de-Marne|
+    dep4    Hauts-de-Seine|Hauts-de-Seine|Hauts-de-Seine|
+    dep5    grande couronne|greater Paris|Gran París|
+
+sse     Strate socio-économique de résidence (pour Bogotá).|Socio-economic stratum of residence (for Bogotá only)|Estrato socioeconómico de residencia (sólo para Bogotá)|
+    sse1    strate 1 ou non stratifié|stratum 1 or not stratified|estrato 1 o sin estrato|
+    sse2    strate 2|stratum 2|estrato 2|
+    sse3    strate 3|stratum 3|estrato 3|
+    sse4    strate 4, 5 et 6|stratum 4, 5 or 6|estrato 4, 5 y 6|
+
+log     Statut d'occupation du logement (pour l'Amérique latine)|Housing tenure (for Latin America)|Situación de la tenencia de la vivienda (para América Latina)|
+    log1    personnes hébergées|rent-free tenants|personas albergadas|
+    log2    locataires|tenants|arrendatario·a·s|
+    log3    propriétaires|owners|propietario·a·s|
+
+act     Lieux d'activité|Activity places|Lugares de actividades|
+    act1    à domicile|at home|en casa|
+    act2    travail|working|trabajo|
+    act3    études|studying|estudios|
+    act4    achats|shopping|compras|
+    act5    loisirs|leisure|recreo|
+    act6    démarches administratives/personnelles (pour l'Amérique latine)|admin./personal tasks (for Latin America)|tramite administrativo/personal (sólo para América Latina)|
+
+mode    Dernier mode (principal) de transport utilisé|Last mode of transport which has been used to reach destination|Último medio de transporte utilizado|
+    mode1   transports collectifs|collective transportation|transporte colectivo|
+    mode2   véhicule motorisé individuel|individual motor vehicle|vehículo motorizado individual|
+    mode3   mode doux (marche à pied, vélo etc.)|soft mobility (walking, cycling ...)|modo suave (caminar, bicicleta, etc.)|
+    mode4   TransMilenio (pour Bogotá)|TransMilenio (for Bogotá only)|TransMilenio (sólo en Bogotá)|</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
