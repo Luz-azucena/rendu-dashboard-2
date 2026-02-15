@@ -1,0 +1,33 @@
+---
+editor: visual
+format:
+  html:
+    theme: cosmo
+    toc: true
+runtime: shiny
+title: Mobilité à Strasbourg
+---
+
+``` {r}
+#| context: setup
+library(shiny)
+library(shinydashboard)
+library(ggplot2)
+library(tm)
+library(slam)
+library(dplyr)
+library(tidyverse)
+library(sf)
+library(leaflet)
+```
+
+## Application Shiny intégrée dans Quarto
+
+``` {r}
+# Code UI + Server complet
+
+# (Le code original est conservé tel quel)
+
+# ---- COLLER LE SCRIPT ORIGINAL CI-DESSOUS ----
+
+```
